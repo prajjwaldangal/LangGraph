@@ -1,0 +1,51 @@
+# ---- Python bytecode / caches ----
+__pycache__/
+**/__pycache__/**
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual environments ----
+# This project root doubles as a virtualenv (pyvenv.cfg, bin/, include/, lib/).
+venv/
+.venv/
+env/
+ENV/
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# ---- Packaging / build artifacts ----
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# ---- PyInstaller ----
+# NOTE: *.spec files are intentionally kept (they are build config), so not ignored.
+*.manifest
+
+# ---- Test / coverage output ----
+.coverage
+.coverage.*
+coverage.json
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---- OS cruft ----
+.DS_Store
+**/.DS_Store
+Thumbs.db
