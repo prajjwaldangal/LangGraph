@@ -49,3 +49,11 @@ htmlcov/
 .DS_Store
 **/.DS_Store
 Thumbs.db
+
+# ---- Secrets -----
+.env
+.secrets
+.cred
+.credentials
+.p12
+.pem
