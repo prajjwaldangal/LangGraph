@@ -8,6 +8,12 @@ from langchain_core.messages import SystemMessage
 # 4. Connect everything into a Graph
 from langgraph.graph import StateGraph, START, END
 
+"""
+  |-----------|              |---------|              |-------|
+  |  START    |  ----------> | CHATBOT |  --------->  |  END  | 
+  |-----------|              |---------|              |-------|
+"""
+
 # Load .env file to get the openai key
 load_dotenv()
 
